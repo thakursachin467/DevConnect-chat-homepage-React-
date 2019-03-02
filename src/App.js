@@ -3,6 +3,7 @@ import './App.css';
 import MockUp from './Images/DualMockUp.png';
 import DualMockUp from './Images/DualMockUpChat.png';
 import MackBookAirMockup from './Images/MackBookAir.png';
+import {  Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -12,10 +13,10 @@ class App extends Component {
             <nav className='header_nav'>
               <ul className='header_nav'>
                 <li>
-                  <a href='/'>Home</a>
+                  <a href='https://admiring-snyder-dead31.netlify.com/'>Home</a>
                 </li>
                 <li>
-                  <a href='/login'>Login</a>
+                  <a href='https://admiring-snyder-dead31.netlify.com/'>Login</a>
                 </li>
               </ul>
             </nav>
@@ -33,7 +34,7 @@ class App extends Component {
                   <h3>What’s new</h3>
                 <p className="lead">Project discussions, important documents, Github repo integration. All your team and work at a single place.Designed for community collaboration
                   We  provide integrations with GitHub.</p>
-                <a href="/login" className="btn btn_primary mb">Get DevConnect Now</a>
+                <a href="https://admiring-snyder-dead31.netlify.com/" className="btn btn_primary mb">Get DevConnect Now</a>
                 <p className="text_light txt_secorndry">DevConnect-Chat is available for Android and Web.</p>
                 <img src={MockUp} className="Mock_UP" alt="Mockup"/>
               </div>
@@ -61,7 +62,7 @@ class App extends Component {
                     <p className="lead">Create your own team in no time and start collaborating with people around the work or you own workspace to build cool and new exciting things.Grow your community in no time with our easy invite system.</p>
                   <p className="lead">Already have an account on DevConnect?</p>
                     <hr/>
-                    <a className="text_secondry" href="/login">
+                    <a className="text_secondry" href="https://admiring-snyder-dead31.netlify.com/">
                       <i  className="fas fa-chevron-right"></i> Start collaborating
                     </a>
                   </div>
